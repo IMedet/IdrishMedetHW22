@@ -18,6 +18,7 @@ public class CalcServlet extends HttpServlet {
         int b = Integer.parseInt(req.getParameter("b"));
         String type = req.getParameter("type");
         int sum = 0;
+        System.out.println(sum);
 
         System.out.println(a + " " + b + " " + type + " " + sum);
 
